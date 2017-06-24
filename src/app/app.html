@@ -1,0 +1,16 @@
+<main>
+  <h1 class="title">Hello from Angular !</h1>
+
+  <!-- Images (and assets) are parsed and loaded from within the public directory -->
+  <img src="/img/logo.png">
+  
+  <section class="example">
+	  <a href="#" editable-text="user.name">{{ user.name || "empty" }}</a>
+	  <div id="debug" style="margin-top: 30px">
+	  	{{ user | json }}
+	  </div>
+  </section>
+</main>
+<footer>
+  <a ng-href="{{app.url}}">Angular 1.x Xeditable Demo with Webpack</a>
+</footer>
